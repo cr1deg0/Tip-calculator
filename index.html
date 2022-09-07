@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    
+    <title>Frontend Mentor | Tip calculator app</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="fs-400 text-dark">SPLI</br>TTER</h1>
+      <main class="bg-white">
+        <form action="#">
+          <div class="section-input">
+            <label for="bill" >Bill</label>
+            <input id="bill" type="number" class="bg-light mt-05 mb-1 text-dark fw-bold text-right fs-400" placeholder="0" required autofocus/>
+            <div class="section-tip">
+              <p class="mb-1">Select tip %</p>
+              <div class="section-tip-btns mb-2">
+                <input type="radio" id="tip-5" name="tip" value="5">
+                <label for="tip-5" class="text-white bg-dark fs-400">5%</label>
+                <input type="radio" id="tip-10" name="tip" value="10">
+                <label for="tip-10" class="text-white bg-dark fs-400">10%</label>
+                <input type="radio" id="tip-15" name="tip" value="15">
+                <label for="tip-15" class="text-white bg-dark fs-400">15%</label>
+                <input type="radio" id="tip-25" name="tip" value="25">
+                <label for="tip-25" class="text-white bg-dark fs-400">25%</label>
+                <input type="radio" id="tip-50" name="tip" value="50">
+                <label for="tip-50" class="text-white bg-dark fs-400">50%</label>
+                <input type="radio" id="tip-custom" name="tip" value="">
+                <label for="tip-custom" class="text-mediumdark bg-light fs-400">Custom</label>
+                <input id="custom-tip" class="text-dark fw-bold bg-light text-right fs-400">
+              </div>
+            </div>
+            <label for="people">Number of People</label>
+            <p class="error-message">Can't be zero</p>
+            <input id="people" type="number" min="1" class="bg-light mt-05 text-dark fw-bold text-right fs-400" placeholder="0" required/>
+          </div>
+          <div class="section-output bg-dark">
+            <div class="section-output-tip">
+              <div>
+                <p class="text-light">Tip Amount</p>
+                <p class="text-medium fs-200">/ person</p>
+              </div>
+              <p id="tip-amount" class="text-strong fs-600">$0.00</p>
+            </div>
+            <div class="section-output-person">
+              <div>
+                <p class="text-light">Total</p>
+                <p class="text-medium fs-200">/ person</p>
+              </div>
+              <p id="total-amount" class="text-strong fs-600">$0.00</p>
+            </div>
+            <button type="reset" disabled>Reset</button>
+          </div>
+        </form>
+      </main>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
