@@ -43,7 +43,7 @@ Users should be able to:
 ### What I learned
 
 - How to style Radio inputs to look more like buttons. This is achieved by hidding the default selectors and using the labels instead.
-
+  ``` css
     input[type="radio"] {
       opacity: 0;
       position: fixed;
@@ -56,9 +56,9 @@ Users should be able to:
         text-align: center;
         min-width: 100px;
     }
-
+  ```
 - How to disable the arrow selector in input type number
-
+  ```css
     /* Chrome, Safari, Edge, Opera */
     input::-webkit-outer-spin-button,
     input::-webkit-inner-spin-button {
@@ -69,9 +69,9 @@ Users should be able to:
     input[type=number] {
       -moz-appearance: textfield;
     }
-
+    ```
 - How to override the browser default placeholder style
-
+  ```css
     ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
       color: var(--neutral-300);
       opacity: 1; /* Firefox */
@@ -84,7 +84,7 @@ Users should be able to:
     color: var(--neutral-300);
     font-family: inherit;
     }
-
+  ```
 ## Author
 
 - Frontend Mentor - [@cr1deg0](https://www.frontendmentor.io/profile/cr1deg0
