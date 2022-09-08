@@ -176,6 +176,7 @@ input[id="people"]:focus
     grid-template-columns: repeat(2, 1fr);
     gap: 1em;
 }
+
 /* Hide radio buttons */
 input[type="radio"] {
     opacity: 0;
@@ -234,6 +235,11 @@ input[id="people"]:out-of-range {
 }
 
 @media (min-width: 950px) {
+    .section-tip-btns{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1em;
+    }
     .section-input {
         flex: 1;
     }
