@@ -97,6 +97,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     height: 100vh;
 }
 h1 {
@@ -135,7 +136,7 @@ input[type=number] {
     color: var(--neutral-300);
     opacity: 1; /* Firefox */
 }
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
+::-ms-input-placeholder { /* Internet Explorer 10-11 */
 color: var(--neutral-300);
 font-family: inherit;
 }
