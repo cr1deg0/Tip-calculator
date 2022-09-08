@@ -85,20 +85,22 @@ body {
     font-weight: 700;
     background-color: var(--neutral-200);
     color: var(--neutral-400);
+    height: 100vh;
 }
 /* ********** */
 /*   Layout   */
 /* ********** */
 
 .container {
-    margin: 0 auto;
+    /* margin: 0 auto; */
     /* width: 80%; --> for the laptop layout */
     /* max-width: 1000px; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 100vh;
+    /* justify-content: flex-end; */
+    /* height: 100vh; */
+    border: 1px solid red;
 }
 h1 {
     letter-spacing: 0.2em;
@@ -109,6 +111,11 @@ main {
 
 }
 @media (min-width: 950px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     main {
         width: 60%;
         max-width: 800px;
@@ -268,7 +275,7 @@ input[id="people"]:out-of-range {
         margin-bottom: 2em;;
     }
     .section-output-person {
-        margin-bottom: 10em;
+        margin-bottom: 4em;
     }
 }
 button{

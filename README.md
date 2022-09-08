@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://www.frontendmentor.io/solutions/tip-calculator-4XNYbZ0Z)
+- [Solution URL](https://www.frontendmentor.io/solutions/tip-calculator-4XNYbZ0ZtI)
 - [Live Site URL](https://cr1deg0.github.io/Tip-calculator/)
 
 ## My process
