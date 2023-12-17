@@ -2,6 +2,8 @@
 
 This is a solution to the [Tip calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
+<img width="1084" alt="tip calculator" src="https://github.com/cr1deg0/Tip-calculator/assets/86016298/d49c84ff-73c5-43b1-805e-f874ea694b98">
+
 ## Table of contents
 
 - [Overview](#overview)
